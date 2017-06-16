@@ -4,8 +4,12 @@
   "description": "questions",
   "main": "index.js",
   "scripts": {
+    "dev": "node index.js",
     "test": "mocha"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
